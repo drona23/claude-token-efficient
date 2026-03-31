@@ -140,38 +140,15 @@ Drop CLAUDE.md in any project. No code changes required.
 
 Community research that informed this file:
 
-- GitHub #3382 - Sycophancy bug (350+ upvotes)
-  https://github.com/anthropics/claude-code/issues/3382
-
-- GitHub #14759 - Sycophancy undermines coding assistant
-  https://github.com/anthropics/claude-code/issues/14759
-
-- GitHub #9340 - Add --quiet flag to suppress verbose output
-  https://github.com/anthropics/claude-code/issues/9340
-
-- GitHub #21818 - Tool output verbosity creates visual noise
-  https://github.com/anthropics/claude-code/issues/21818
-
-- GitHub #20542 - Verbose output overwhelms session and wastes tokens
-  https://github.com/anthropics/claude-code/issues/20542
-
-- The Register - "Claude Code's endless sycophancy annoys customers" (Aug 2025)
-  https://www.theregister.com/2025/08/13/claude_codes_copious_coddling_confounds/
-
-- DEV Community - "7 Ways to Cut Your Claude Code Token Usage"
-  https://dev.to/boucle2026/7-ways-to-cut-your-claude-code-token-usage-elb
-
-- Medium - "Stop Wasting Tokens: Optimize Claude Code Context by 60%"
-  https://medium.com/@jpranav97/stop-wasting-tokens-how-to-optimize-claude-code-context-by-60-bfad6fd477e5
-
-- Anthropic Docs - Reduce Hallucinations
-  https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations
-
-- PromptHub - "Three Prompt Engineering Methods to Reduce Hallucinations"
-  https://www.prompthub.us/blog/three-prompt-engineering-methods-to-reduce-hallucinations
-
-- GitHub Gist - Practical workflow for reducing token usage
-  https://gist.github.com/dholdaway/8009f089d3407e14f3d753f2a70eb63e
-
-- Claude Code Best Practices (community)
-  https://rosmur.github.io/claudecode-best-practices/
+- [GitHub #3382 - Sycophancy bug (350+ upvotes)](https://github.com/anthropics/claude-code/issues/3382)
+- [GitHub #14759 - Sycophancy undermines coding assistant](https://github.com/anthropics/claude-code/issues/14759)
+- [GitHub #9340 - Add --quiet flag to suppress verbose output](https://github.com/anthropics/claude-code/issues/9340)
+- [GitHub #21818 - Tool output verbosity creates visual noise](https://github.com/anthropics/claude-code/issues/21818)
+- [GitHub #20542 - Verbose output overwhelms session and wastes tokens](https://github.com/anthropics/claude-code/issues/20542)
+- [The Register - "Claude Code's endless sycophancy annoys customers" (Aug 2025)](https://www.theregister.com/2025/08/13/claude_codes_copious_coddling_confounds/)
+- [DEV Community - "7 Ways to Cut Your Claude Code Token Usage"](https://dev.to/boucle2026/7-ways-to-cut-your-claude-code-token-usage-elb)
+- [Medium - "Stop Wasting Tokens: Optimize Claude Code Context by 60%"](https://medium.com/@jpranav97/stop-wasting-tokens-how-to-optimize-claude-code-context-by-60-bfad6fd477e5)
+- [Anthropic Docs - Reduce Hallucinations](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations)
+- [PromptHub - "Three Prompt Engineering Methods to Reduce Hallucinations"](https://www.prompthub.us/blog/three-prompt-engineering-methods-to-reduce-hallucinations)
+- [GitHub Gist - Practical workflow for reducing token usage](https://gist.github.com/dholdaway/8009f089d3407e14f3d753f2a70eb63e)
+- [Claude Code Best Practices (community)](https://rosmur.github.io/claudecode-best-practices/)

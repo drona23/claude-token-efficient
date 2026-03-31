@@ -68,9 +68,9 @@ Same 5 prompts. Run without CLAUDE.md (baseline) then with CLAUDE.md (optimized)
 | Hallucination correction | 55 words | 20 words | 64% |
 | **Total** | **465 words** | **170 words** | **63%** |
 
-**~384 output tokens saved per 4 prompts. Same information. Zero signal loss.**
+**~295 words saved per 4 prompts. Same information. Zero signal loss.**
 
-> **Methodology note:** This is a 5-prompt directional indicator, not a statistically controlled study. Claude's output length varies naturally between identical prompts. No variance controls or repeated runs were applied. Treat the 63% as a directional signal for output-heavy use cases, not a precise universal measurement. The CLAUDE.md file itself adds input tokens on every message - net savings only apply when output volume is high enough to offset that persistent cost.
+> **Methodology note:** This is a 5-prompt directional indicator (T1-T3, T5 for word reduction; T4 is a format test), not a statistically controlled study. Claude's output length varies naturally between identical prompts. No variance controls or repeated runs were applied. Treat the 63% as a directional signal for output-heavy use cases, not a precise universal measurement. The CLAUDE.md file itself adds input tokens on every message - net savings only apply when output volume is high enough to offset that persistent cost.
 
 ### At Scale
 
