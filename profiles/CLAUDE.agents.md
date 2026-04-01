@@ -15,10 +15,10 @@
 - No asking for confirmation on clearly defined tasks. Use defaults.
 - If a step fails: state what failed, why, and what was attempted. Stop.
 
-## ASCII and Encoding
-- ASCII only. No Unicode characters in any output.
-- No smart quotes, em dashes, ellipsis characters.
-- All strings must be safe for JSON serialization without escaping.
+## Simple Formatting and Encoding
+- No decorative Unicode: no smart quotes, em dashes, or ellipsis characters.
+- Natural language characters (accented letters, CJK, etc.) are fine when the content requires them.
+- All strings must be safe for JSON serialization.
 
 ## Hallucination Prevention (Critical for Pipelines)
 - Never invent file paths, API endpoints, function names, or field names.

@@ -27,7 +27,8 @@
 - Caveats and limitations last.
 - No narrative fluff between sections.
 
-## ASCII Only
+## Simple Formatting
 - No em dashes or smart quotes in reports.
 - Tables use plain pipe characters.
+- Natural language characters (accented letters, CJK, etc.) are fine when the content requires them.
 - Safe for copy-paste into spreadsheets and documents.

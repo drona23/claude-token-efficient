@@ -28,7 +28,8 @@
 - State what you found, where, and the fix. One pass.
 - If cause is unclear: say so. Do not guess.
 
-## ASCII Only
-- No em dashes, smart quotes, Unicode bullets.
+## Simple Formatting
+- No em dashes, smart quotes, or decorative Unicode symbols.
 - Plain hyphens and straight quotes only.
+- Natural language characters (accented letters, CJK, etc.) are fine when the content requires them.
 - Code output must be copy-paste safe.
