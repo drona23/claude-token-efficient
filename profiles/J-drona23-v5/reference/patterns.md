@@ -13,3 +13,8 @@
 - Use relative paths
 - Keep solutions minimal
 - Handle edge cases in data (nulls, empty strings, type mismatches)
+
+## WebSocket patterns
+- Track clients manually with a Set - do not rely on pub/sub channels for broadcast
+- Send confirmation to sender first, then broadcast to others
+- Use setTimeout(0) to give test listeners time to register before broadcast fires
