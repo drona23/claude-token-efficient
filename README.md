@@ -89,6 +89,22 @@ The v8 config uses 2 files (7 lines total). The biggest win comes from WebSocket
 
 This repo keeps the root `CLAUDE.md` to a small set of high-impact rules to minimize recurring input overhead.
 
+### CLAUDE.md vs Rules in Chat
+
+Some users paste rules directly into the chat instead of using a CLAUDE.md file. We tested both approaches on the same 3 challenges:
+
+| Config | CSV | SQLite | WebSocket | Total | All Pass? |
+|--------|-----|--------|-----------|-------|-----------|
+| No rules | $0.264 | $0.496 | — | — | No (WS failed) |
+| Rules in chat | $0.274 | $0.459 | $0.585 | $1.318 | Yes |
+| **CLAUDE.md (v8)** | **$0.244** | **$0.406** | **$0.285** | **$0.935** | **Yes** |
+
+Rules in chat costs 41% more than CLAUDE.md. Two reasons:
+- Rules pasted in the human turn don't cache as efficiently as a file
+- Every new session requires copy-pasting rules again
+
+**Use CLAUDE.md.** Rules in chat is not a cheaper alternative.
+
 ### At Scale
 
 | Usage | Tokens Saved/Day | Monthly Savings (Sonnet) |
