@@ -30,3 +30,4 @@
 - Pipeline calls compound. Every token saved per call multiplies across runs.
 - No explanatory text in agent output unless a human will read it.
 - Return the minimum viable output that satisfies the task spec.
+- Cap parallel subagents at 3 unless explicitly instructed otherwise.
