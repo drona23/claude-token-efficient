@@ -284,6 +284,8 @@ Full credit to every source that contributed a fix:
 - [Anthropic Docs - Reduce Hallucinations](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations)
 - [PromptHub - "Three Prompt Engineering Methods to Reduce Hallucinations"](https://www.prompthub.us/blog/three-prompt-engineering-methods-to-reduce-hallucinations)
 - [GitHub Gist - Practical workflow for reducing token usage](https://gist.github.com/dholdaway/8009f089d3407e14f3d753f2a70eb63e)
+- [Token Checkup - Free diagnostic for token consumption patterns](https://yurukusa.github.io/cc-safe-setup/token-checkup.html) - 5-question browser tool that analyzes your Claude Code token usage and suggests optimizations
+- [Cache Health Checker - Diagnose cache efficiency from /cost output](https://yurukusa.github.io/cc-safe-setup/cache-health.html) - paste your `/cost` output to check if prompt caching is working correctly
 - [Claude Code Best Practices - community](https://rosmur.github.io/claudecode-best-practices/)
 - [Vaibhav Sisinty - GrowthSchool](https://growthschool.io) - AI upskilling and prompt engineering best practices
 - [Vaibhav Sisinty on X](https://x.com/VaibhavSisinty) - Active discussions on Claude prompt optimization and AI workflows
